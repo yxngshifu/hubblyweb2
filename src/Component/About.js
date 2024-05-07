@@ -23,15 +23,15 @@ What sets us apart is our unwavering focus on client value, built on integrity, 
           <img className="sm:w-[500px] md:w-[800px] md:px-60 lg:w-[400px] sm:px-10 lg:px-10 lg:py-60  " src={Circle} alt="/" />
            <div className="flex flex-wrap justify-center gap-4 p-4">
   {/* Each card */}
-  <div className="w-full sm:w-1/5 md:w-1/3 lg:w-1/4 xl:w-1/4 shadow-xl flex flex-col p-4 bg-[#048392] rounded-lg hover:scale-105 duration-300">
+  <div className=" sm:w-1/5 md:w-1/3 lg:w-1/4 xl:w-1/4 shadow-xl flex flex-col p-4 bg-[#048392] rounded-lg hover:scale-105 duration-300">
     <p className="text-center text-[#A8E6E9] sm:text-xs lg:text-lg font-bold">80+ Employees</p>
   </div>
 
-  <div className="w-full sm:w-1/5 md:w-1/3 lg:w-1/6 xl:w-1/4 shadow-xl flex flex-col p-4 bg-[#A8E6E9] rounded-lg hover:scale-105 duration-300">
+  <div className=" sm:w-1/5 md:w-1/3 lg:w-1/6 xl:w-1/4 shadow-xl flex flex-col p-4 bg-[#A8E6E9] rounded-lg hover:scale-105 duration-300">
     <p className="text-center text-white lg:text-lg font-bold">10+ Locations</p>
   </div>
 
-  <div className="w-full sm:w-1/5 md:w-1/3 lg:w-1/4 xl:w-1/4 shadow-xl flex flex-col p-4 bg-[#048392] rounded-lg hover:scale-105 duration-300">
+  <div className=" sm:w-1/5 md:w-1/3 lg:w-1/4 xl:w-1/4 shadow-xl flex flex-col p-4 bg-[#048392] rounded-lg hover:scale-105 duration-300">
     <p className="text-center text-[#A8E6E9] lg:text-lg font-bold">500+ Projects</p>
   </div>
 

@@ -20,7 +20,7 @@ function Products() {
   <div className="flex flex-col items-center px-4 lg:mb-8 sm:mb-2 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
        <img className="lg:w-[100px] sm:w-[20px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
-      <div className="sm:text-xs  text-[#494D4D]  font-Raleway font-medium lg:mb-6 sm:mb-2 ">
+      <div className="sm:text-xs  text-white  font-Raleway font-medium lg:mb-6 sm:mb-2 ">
          <p className="text-white text-center lg:text-sm font-bold ">Hubbly App</p>
         <p className="mt-2 text-center lg:text-sm">Get the household help you need with our intuitive app</p>
       </div>
@@ -33,7 +33,7 @@ function Products() {
   <div className="flex flex-col items-center px-4 sm:mb-2 mb-8 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
        <img className="lg:w-[100px] sm:w-[20px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
-      <div className="sm:text-xs  text-[#494D4D] font-Raleway font-medium  lg:mb-6">
+      <div className="sm:text-xs  text-white font-Raleway font-medium  lg:mb-6">
          <p className="text-white text-center lg:text-sm font-bold mb-2">Octasight</p>
         <p className="mt-2 text-center lg:text-sm">Gain insights and analytics to drive informed decision-making.</p>
       </div>
@@ -46,7 +46,7 @@ function Products() {
   <div className="flex flex-col items-center px-4 sm:mb-2 mb-8 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
       <img className="lg:w-[100px] sm:w-[20px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
-      <div className="sm:text-xs  text-[#494D4D] font-Raleway font-medium  lg:mb-6">
+      <div className="sm:text-xs  text-white font-Raleway font-medium  lg:mb-6">
         <p className="text-white text-center lg:text-sm font-bold mb-2">Document Management System</p>
         <p className="mt-2 text-center lg:text-sm">Organize, secure, and access your documents with ease.</p>
       </div>
@@ -59,7 +59,7 @@ function Products() {
   <div className="flex flex-col items-center px-4 sm:mb-2">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
      <img className="lg:w-[100px] sm:w-[20px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
-      <div className="sm:text-xs  text-[#494D4D] font-Raleway font-medium  lg:mb-6">
+      <div className="sm:text-xs  text-white font-Raleway font-medium  lg:mb-6">
        <p className="text-white text-center lg:text-sm font-bold mb-2">TownCrier</p>
         <p className="mt-2 text-center lg:text-sm">Connect with your community and stay informed with our platform.</p>
       </div>
