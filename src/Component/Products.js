@@ -14,7 +14,7 @@ function Products() {
   };
   return (
     <div  style={projectbackground}>
-        <h1 className='lg:text-2xl sm:px-4 sm:py-4 lg:py-20 sm:mb-4 lg:mb-20 font-semibold'>Products/Solutions</h1>
+        <h1 className='lg:text-2xl sm:px-4 sm:py-4 md:py-40 lg:py-20 sm:mb-4 lg:mb-20 font-semibold'>Products/Solutions</h1>
        <div className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 sm:mb-4">
   <div className="flex flex-col items-center px-4 mb-8 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">

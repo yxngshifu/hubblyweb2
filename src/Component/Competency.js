@@ -26,7 +26,7 @@ function Competency() {
  
   return (
     <div style={competencybackground} >
-        <h1 className='font-semibold sm:text-l lg:text-2xl sm:py-2 lg:py-20 text-black sm:mb-2 lg:mb-16 font-MuseoModerno'>Core Competencies</h1>
+        <h1 className='font-semibold sm:text-l lg:text-2xl sm:py-2 md:py-40 lg:py-20 text-black sm:mb-2 lg:mb-16 font-MuseoModerno'>Core Competencies</h1>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8  lg:mb-8 font-Raleway'>
       <div className='sm:px-10 lg:px-20'>
         <button className='shadow-xl bg-[#fdfcfc] text-black rounded-lg hover:scale-105 duration-300 font-medium sm:w-[320px] lg:w-[600px] flex items-center  px-4 py-2'>
