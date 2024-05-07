@@ -1,5 +1,6 @@
 import React from 'react'
 import hero from '../Assets/herobg1.png'
+import Navbar from './Navbar';
 
 
 function Hero() {
@@ -15,7 +16,7 @@ function Hero() {
   };
   return (
     <div style={herobackground}> 
-            
+            <Navbar/>
        < div className=' grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4  flex-col'>
       
           <div className=" lg:px-60 md:px-40 sm:px-10 sm:py-60 md:py-80 lg:py-80 text-justify ">

@@ -1,5 +1,6 @@
 import React from 'react'
 import Productbg from '../Assets/productsbg.png'
+import letterh from '../Assets/letterh.PNG'
 
 function Products() {
       const projectbackground = {
@@ -18,10 +19,10 @@ function Products() {
        <div className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 sm:mb-4">
   <div className="flex flex-col items-center px-4 mb-8 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
-      <p className="text-[#A8E6E9] lg:text-lg font-bold mb-2">Hubbly app</p>
-      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium ">
-        <h1 className="font-bold">Hubbly App</h1>
-        <p className="mt-2">Get the household help you need with our intuitive app</p>
+       <img className="w-[100px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
+      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium lg:mb-12 ">
+         <p className="text-white text-center lg:text-lg font-bold mb-2">Hubbly App</p>
+        <p className="mt-2 text-center">Get the household help you need with our intuitive app</p>
       </div>
       <button className="bg-[#048392] text-[#FFFFFF] rounded-full text-md lg:text-lg sm:w-[160px] w-full py-2">
         Learn more
@@ -31,10 +32,10 @@ function Products() {
 
   <div className="flex flex-col items-center px-4 mb-8 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
-      <p className="text-white lg:text-lg font-bold mb-2">Octasight</p>
-      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium ">
-        <h1 className="font-bold">Octasight</h1>
-        <p className="mt-2">Gain insights and analytics to drive informed decision-making.</p>
+       <img className="w-[100px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
+      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium  lg:mb-6">
+         <p className="text-white text-center lg:text-lg font-bold mb-2">Octasight</p>
+        <p className="mt-2 text-center">Gain insights and analytics to drive informed decision-making.</p>
       </div>
       <button className="bg-[#048392] text-[#FFFFFF] rounded-full text-md lg:text-lg sm:w-[160px] w-full py-2">
         Learn more
@@ -44,10 +45,10 @@ function Products() {
 
   <div className="flex flex-col items-center px-4 mb-8 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
-      <p className="text-[#A8E6E9] lg:text-lg font-bold mb-2">Documangsys</p>
+      <img className="w-[100px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
       <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium ">
-        <h1 className="font-bold">Document Management System</h1>
-        <p className="mt-2">Organize, secure, and access your documents with ease.</p>
+        <p className="text-white text-center lg:text-lg font-bold mb-2">Document Management System</p>
+        <p className="mt-2 text-center">Organize, secure, and access your documents with ease.</p>
       </div>
       <button className="bg-[#048392] text-[#FFFFFF] rounded-full text-md lg:text-lg sm:w-[140px] w-full py-2">
         Learn more
@@ -57,10 +58,10 @@ function Products() {
 
   <div className="flex flex-col items-center px-4">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
-      <p className="text-white lg:text-lg font-bold mb-2">towncrier</p>
-      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium ">
-        <h1 className="font-bold">TownCrier</h1>
-        <p className="mt-2">Connect with your community and stay informed with our platform.</p>
+     <img className="w-[100px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
+      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium  lg:mb-6">
+       <p className="text-white text-center lg:text-lg font-bold mb-2">TownCrier</p>
+        <p className="mt-2 text-center">Connect with your community and stay informed with our platform.</p>
       </div>
       <button className="bg-[#048392] text-[#FFFFFF] rounded-full text-md lg:text-lg sm:w-[140px] w-full py-2">
         Learn more

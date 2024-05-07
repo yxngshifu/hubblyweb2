@@ -24,17 +24,7 @@ function Competency() {
         flexDirection: 'column',
         color: 'white',
   };
-  const deliverbackground = {
-    backgroundImage: `url(${deliver})`,
-     backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        height: '20vh',
-        width:'80vh',
-        display: 'flex',
-        flexDirection: 'column',
-        
-  };
+  
  
   return (
     <div style={competencybackground} >
@@ -112,17 +102,7 @@ function Competency() {
             </button>
       </div>   
           </div>
-      
-<div className='max-w-[1240px] mx-auto shadow-xl grid md:grid-cols-2 gap-8 text-white rounded-lg hover:scale-105 duration-300' style={deliverbackground}>
-  <div className='w-full  flex flex-col p-4 my-4 '>
-    <h2 className='text-2xl font-bold text-center py-8'>We Deliver software solutions that drive change.</h2>
-  </div>
-  <div className='flex items-center justify-center'>
-    <button className="bg-white text-[#048392] rounded-full text-md lg:text-lg sm:w-[140px] w-full py-2">
-      Get started
-    </button>
-  </div>
-</div>
+   
 
   
     </div>
