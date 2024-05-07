@@ -5,6 +5,7 @@ import About from './Component/About';
 import Services from './Component/Services';
 import Products from './Component/Products';
 import Competency from './Component/Competency';
+import Solutions from './Component/Solutions';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
      <Services/>
      <Competency/>
      <Products/>
+     <Solutions/>
     </div>
   );
 }

@@ -1,6 +1,4 @@
 import React from 'react'
-import competencybg from '../Assets/competency.png'
-import star from '../Assets/star.png'
 import analytics from '../Assets/analytics.png'
 import phone from '../Assets/phoneasset.png'
 import backend from '../Assets/backend.png'
@@ -13,45 +11,22 @@ import qa from '../Assets/qa.png'
 import cloud from '../Assets/cloud.png'
 import deliver from '../Assets/deliver.png'
 
-function Competency() {
-     const competencybackground = {
-    backgroundImage: `url(${competencybg})`,
-     backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        color: 'white',
-  };
-  const deliverbackground = {
-    backgroundImage: `url(${deliver})`,
-     backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        height: '20vh',
-        width:'80vh',
-        display: 'flex',
-        flexDirection: 'column',
-        
-  };
- 
+function Solutions() {
   return (
-    <div style={competencybackground} >
-        <h1 className='font-semibold sm:text-l lg:text-2xl sm:py-2 md:py-40 lg:py-20 text-black sm:mb-2 lg:mb-16 font-MuseoModerno'>Core Competencies</h1>
-    <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8  lg:mb-8 font-Raleway'>
+    <div>
+        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8  lg:mb-8 font-Raleway'>
       <div className='sm:px-10 lg:px-20'>
         <button className='shadow-xl bg-[#fdfcfc] text-black rounded-lg hover:scale-105 duration-300 font-medium sm:w-[320px] lg:w-[600px] flex items-center  px-4 py-2'>
            <img className="w-10 h-10 mr-4  " src={analytics} alt="/" />
-
-             Business Analytics
+             UX Driven Engineering
+             <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>
        <div className='sm:px-10 lg:px-20'>
         <button className='shadow-xl bg-[#fdfcfc] text-black rounded-lg hover:scale-105 duration-300 font-medium sm:w-[320px] lg:w-[600px]  flex items-center  px-4 py-2'>
            <img className="w-8 h-10 mr-4  " src={phone} alt="/" />
-
-             Digital Transformation Consulting
+              Developing Shared Understanding
+             <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>
       
@@ -60,6 +35,7 @@ function Competency() {
            <img className="w-10 h-10 mr-4  " src={backend} alt="/" />
 
             Backend Development
+            <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>
       
@@ -68,6 +44,7 @@ function Competency() {
            <img className="w-10 h-8 mr-4  " src={web} alt="/" />
 
             Web Design
+            <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>
       <div className='sm:px-10 lg:px-20'>
@@ -75,6 +52,7 @@ function Competency() {
            <img className="w-10 h-10 mr-4  " src={technical} alt="/" />
 
              Technical Support
+             <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>
       <div className='sm:px-10 lg:px-20'>
@@ -82,6 +60,7 @@ function Competency() {
            <img className="w-10 h-10 mr-4  " src={devops} alt="/" />
 
              DevOps
+             <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>
       <div className=' sm:px-10 lg:px-20'>
@@ -89,6 +68,7 @@ function Competency() {
            <img className="w-10 h-10 mr-4  " src={ui} alt="/" />
 
            UI/UX Design
+           <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>
       <div className=' sm:px-10 lg:px-20'>
@@ -96,6 +76,7 @@ function Competency() {
            <img className="w-10 h-10 mr-4  " src={frontend} alt="/" />
 
             Front-End Development
+            <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>
        <div className='sm:px-10 lg:px-20'>
@@ -103,30 +84,19 @@ function Competency() {
            <img className="w-10 h-10 mr-4  " src={qa} alt="/" />
 
             QA & Testing
+            <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>
        <div className='sm:px-10 lg:px-20'>
         <button className='shadow-xl bg-[#fdfcfc] text-black rounded-lg hover:scale-105 duration-300 font-medium sm:w-[320px] lg:w-[600px]  flex items-center  px-4 py-2'>
            <img className="w-10 h-10 mr-4  " src={cloud} alt="/" />
                Cloud Solutions
+               <p className='text-sm'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
             </button>
       </div>   
           </div>
-      
-<div className='max-w-[1240px] mx-auto shadow-xl grid md:grid-cols-2 gap-8 text-white rounded-lg hover:scale-105 duration-300' style={deliverbackground}>
-  <div className='w-full  flex flex-col p-4 my-4 '>
-    <h2 className='text-2xl font-bold text-center py-8'>We Deliver software solutions that drive change.</h2>
-  </div>
-  <div className='flex items-center justify-center'>
-    <button className="bg-white text-[#048392] rounded-full text-md lg:text-lg sm:w-[140px] w-full py-2">
-      Get started
-    </button>
-  </div>
-</div>
-
-  
     </div>
   )
 }
 
-export default Competency
+export default Solutions
