@@ -61,7 +61,7 @@ const herobackground = {
   <p className='sm:text-xs lg:text-sm font-Raleway'>Access top-tier talent while optimizing costs.</p>
   <hr className="border-t-4 border-gray-400 my-2 w-full" />
 </div>
-<div style={herobackground}> 
+<div className='py-20'style={herobackground}> 
  < div className=' grid sm:grid-cols-2 lg:grid-cols-2 sm:gap-2 lg:gap-4  flex-col'>
   <div className='text-white font-MuseoModerno font-bold lg:text-xl'>
     <p>We Deliver software solutions that drive change.</p>
