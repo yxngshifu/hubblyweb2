@@ -5,6 +5,7 @@ import About from './Component/About';
 import Services from './Component/Services';
 import Products from './Component/Products';
 import Competency from './Component/Competency';
+import Contact from './Component/Contact';
 
 
 
@@ -18,6 +19,7 @@ function App() {
      <Services/>
      <Competency/>
      <Products/>
+     <Contact/>
      
     </div>
   );

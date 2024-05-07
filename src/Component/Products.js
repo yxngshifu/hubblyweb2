@@ -20,9 +20,9 @@ function Products() {
   <div className="flex flex-col items-center px-4 mb-8 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
        <img className="w-[100px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
-      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium lg:mb-12 ">
-         <p className="text-white text-center lg:text-lg font-bold mb-2">Hubbly App</p>
-        <p className="mt-2 text-center">Get the household help you need with our intuitive app</p>
+      <div className="text-md  text-[#494D4D] font-Raleway font-medium lg:mb-6 ">
+         <p className="text-white text-center lg:text-sm font-bold mb-2">Hubbly App</p>
+        <p className="mt-2 text-center lg:text-sm">Get the household help you need with our intuitive app</p>
       </div>
       <button className="bg-[#048392] text-[#FFFFFF] rounded-full text-md lg:text-lg sm:w-[160px] w-full py-2">
         Learn more
@@ -33,9 +33,9 @@ function Products() {
   <div className="flex flex-col items-center px-4 mb-8 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
        <img className="w-[100px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
-      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium  lg:mb-6">
-         <p className="text-white text-center lg:text-lg font-bold mb-2">Octasight</p>
-        <p className="mt-2 text-center">Gain insights and analytics to drive informed decision-making.</p>
+      <div className="text-md  text-[#494D4D] font-Raleway font-medium  lg:mb-6">
+         <p className="text-white text-center lg:text-sm font-bold mb-2">Octasight</p>
+        <p className="mt-2 text-center lg:text-sm">Gain insights and analytics to drive informed decision-making.</p>
       </div>
       <button className="bg-[#048392] text-[#FFFFFF] rounded-full text-md lg:text-lg sm:w-[160px] w-full py-2">
         Learn more
@@ -46,9 +46,9 @@ function Products() {
   <div className="flex flex-col items-center px-4 mb-8 md:mb-0">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
       <img className="w-[100px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
-      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium ">
-        <p className="text-white text-center lg:text-lg font-bold mb-2">Document Management System</p>
-        <p className="mt-2 text-center">Organize, secure, and access your documents with ease.</p>
+      <div className="text-md l text-[#494D4D] font-Raleway font-medium  lg:mb-6">
+        <p className="text-white text-center lg:text-sm font-bold mb-2">Document Management System</p>
+        <p className="mt-2 text-center lg:text-sm">Organize, secure, and access your documents with ease.</p>
       </div>
       <button className="bg-[#048392] text-[#FFFFFF] rounded-full text-md lg:text-lg sm:w-[140px] w-full py-2">
         Learn more
@@ -59,9 +59,9 @@ function Products() {
   <div className="flex flex-col items-center px-4">
     <div className="flex-shrink-0 flex flex-col items-center px-4 text-center lg:text-left">
      <img className="w-[100px] lg:mx-10 md:mx-6 my-4 flex items-center" src={letterh} alt="/" />
-      <div className="text-md lg:text-lg text-[#494D4D] font-Raleway font-medium  lg:mb-6">
-       <p className="text-white text-center lg:text-lg font-bold mb-2">TownCrier</p>
-        <p className="mt-2 text-center">Connect with your community and stay informed with our platform.</p>
+      <div className="text-md  text-[#494D4D] font-Raleway font-medium  lg:mb-6">
+       <p className="text-white text-center lg:text-sm font-bold mb-2">TownCrier</p>
+        <p className="mt-2 text-center lg:text-sm">Connect with your community and stay informed with our platform.</p>
       </div>
       <button className="bg-[#048392] text-[#FFFFFF] rounded-full text-md lg:text-lg sm:w-[140px] w-full py-2">
         Learn more
