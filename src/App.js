@@ -10,8 +10,10 @@ import Contact from './Component/Contact';
 
 
 
+
 function App() {
   return (
+   
     <div className="App">
      
      <Hero/>
@@ -22,6 +24,7 @@ function App() {
      <Contact/>
      
     </div>
+ 
   );
 }
 

@@ -10,7 +10,8 @@ function About() {
     backgroundSize: '30%'
   }
   return (
-    <div>
+    
+    <div id='about'>
                < div className=' grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4  flex-col'>
                  <div className="sm:px-14 sm:py-20 lg:px-40 lg:py-40  text-justify ">
         <h2 className=' text-[#030303] font-MuseoModerno pb-4 lg:text-xl font-bold'>About Us</h2>
@@ -43,6 +44,7 @@ What sets us apart is our unwavering focus on client value, built on integrity, 
         </div>
                </div>
     </div>
+   
   )
 }
  

@@ -14,7 +14,7 @@ function Products() {
         color: 'white',
   };
   return (
-    <div  style={projectbackground}>
+    <div id='products' style={projectbackground}>
         <h1 className='lg:text-2xl sm:px-4 sm:py-2 md:py-40 lg:py-20  lg:mb-20 font-semibold'>Products/Solutions</h1>
        <div className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-4 lg:gap-8 sm:gap-2">
   <div className="flex flex-col items-center px-4 lg:mb-8 sm:mb-2 md:mb-0">

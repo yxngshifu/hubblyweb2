@@ -18,7 +18,8 @@ const herobackground = {
     padding: '2rem', // Added padding for content spacing
   };
   return (
-    <div className='bg-[#cdf1f3] '>
+    <div id='services'>
+    <div  className='bg-[#cdf1f3] '>
         <h1 className='text-[#000000] font-MuseoModerno font-semibold sm:text-l lg:text-2xl sm:py-10 lg:py-20'>Our Services</h1>
       
        <div className="sm:px-10 lg:px-80 flex flex-col items-start mb-4">
@@ -74,6 +75,7 @@ const herobackground = {
  </div>
 </div>
 
+    </div>
     </div>
   )
 }

@@ -12,6 +12,7 @@ import frontend from '../Assets/frontend.png'
 import qa from '../Assets/qa.png'
 import cloud from '../Assets/cloud.png'
 import deliver from '../Assets/deliver.png'
+import starsign from '../Assets/starsign.png'
 
 function Competency() {
      const competencybackground = {
@@ -24,10 +25,22 @@ function Competency() {
         flexDirection: 'column',
         color: 'white',
   };
-  
+
+   const ellipseStyle = {
+    backgroundImage: `url(${starsign})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'left 80px top', // Position background image to top left corner
+    backgroundSize: '10%',
+    flexDirection: 'column',
+    marginBottom: '20px', // Margin bottom of 20 pixels
+    minHeight: '100vh', // Adjust the height as needed
+    display: 'flex',
+   
+  };
  
   return (
-    <div style={competencybackground} >
+    <div id='competence' style={competencybackground}>
+      <div style={ellipseStyle}>
         <h1 className='font-semibold sm:text-l lg:text-2xl sm:py-2 md:py-40 lg:py-20 text-black  lg:mb-16 font-MuseoModerno'>Core Competencies</h1>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 lg:gap-8 sm:gap-2  lg:mb-8 font-Raleway'>
       <div className='sm:px-10 lg:px-20'>
@@ -101,6 +114,7 @@ function Competency() {
                Cloud Solutions
             </button>
       </div>   
+          </div>
           </div>
    
 

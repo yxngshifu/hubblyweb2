@@ -8,6 +8,7 @@ import xicon from '../Assets/xicon.png'
 import linkd from '../Assets/linkdicon.png'
 import igicon from '../Assets/igicon.png'
 
+
 function Contact() {
   const contactBackgroundStyle = {
     backgroundImage: `url(${contactbg})`,
@@ -21,9 +22,15 @@ function Contact() {
     justifyContent: 'center', // Center items vertically
     color: 'white',
   };
+   const handlePrivacy = () => {
+    window.location.href = 'https://hubbly.me/privacy';
+  };
+  const handleTerms =() =>{
+    window.location.href ='https://hubbly.me/terms'
+  };
 
   return (
-    <div style={contactBackgroundStyle}>
+    <div id='contact' style={contactBackgroundStyle}>
       <div className="flex flex-col items-center text-black ">
         <img className="sm:w-20 lg:w-40 md:w-36 my-4" src={logo1} alt="Logo" />
         <h1 className="font-bold sm:text-sm lg:mb-8 text-black lg:text-2xl text-center">
@@ -48,40 +55,47 @@ function Contact() {
       </div>
     </div>
      <div className="max-w-[1240px] font-bold text-[#048392] mx-auto grid md:grid-cols-6 lg:gap-10 sm:mb-4 lg:mb-12 font-Raleway">
-        <div>
+        <div className='hover:text-[#000000] cursor-pointer'>
+            
             <p>About Us</p>
         </div>
-        <div>
+       <div className='hover:text-[#000000] cursor-pointer'>
             <p>Our Services </p>
         </div>
-        <div>
+        <div className='hover:text-[#000000] cursor-pointer'>
             <p>Core competencies</p>
         </div>
-        <div>
+        <div className='hover:text-[#000000] cursor-pointer'>
             <p>Contact Us</p>
         </div>
-        <div>
-            <p>Privacy Policy</p>
+        <div className='hover:text-[#000000] cursor-pointer'>
+            <p onClick={handlePrivacy}>Privacy Policy</p>
         </div>
-        <div>
-            <p>Terms & Conditions</p>
+        <div className='hover:text-[#000000] cursor-pointer'>
+            <p onClick={handleTerms}>Terms & Conditions</p>
         </div>
      </div>
      <div>
         <p className='lg:text-sm sm:text-xs lg:mb-14'>Copyright 2024 Engitech by OceanThemes. All Rights Reserved</p>
      </div>
      <div className="max-w-[1240px]  mx-auto grid md:grid-cols-4 lg:gap-4 lg:mb-8 font-Raleway">
-        <div>
+        <div className=' cursor-pointer  hover:scale-105 duration-300'>
         <img className="sm:w-10 lg:w-16 md:w-16 my-4" src={fbicon} alt="Phone" />
         </div>
-        <div>
+         <div className=' cursor-pointer hover:scale-105 duration-300'>
+            <a href="https://www.instagram.com/hubbly.me?igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
         <img className="sm:w-10 lg:w-16 md:w-16 my-4" src={igicon} alt="Phone" />
+        </a>
         </div>
-        <div>
+        <div className=' cursor-pointer hover:scale-105 duration-300'>
+              <a href="https://twitter.com/Hubbly_me" target="_blank" rel="noopener noreferrer">
         <img className="sm:w-10 lg:w-16 md:w-16 my-4" src={xicon} alt="Phone" />
+        </a>
         </div>
-        <div>
+        <div className=' cursor-pointer hover:scale-105 duration-300'>
+            <a href="https://linkedin.com/company/Hubbly-me/" target="_blank" rel="noopener noreferrer">
         <img className="sm:w-10 lg:w-16 md:w-16 my-4" src={linkd} alt="Phone" />
+        </a>
         </div>
      </div>
       </div>
