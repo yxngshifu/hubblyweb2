@@ -7,6 +7,7 @@ import fbicon from '../Assets/fbicon.png'
 import xicon from '../Assets/xicon.png'
 import linkd from '../Assets/linkdicon.png'
 import igicon from '../Assets/igicon.png'
+import { Link } from 'react-scroll';
 
 
 function Contact() {
@@ -56,17 +57,24 @@ function Contact() {
     </div>
      <div className="max-w-[1240px] font-bold text-[#048392] mx-auto grid md:grid-cols-6 lg:gap-10 sm:mb-4 lg:mb-12 font-Raleway">
         <div className='hover:text-[#000000] cursor-pointer'>
-            
+             <Link to="about" smooth={true} duration={500}>
             <p>About Us</p>
+            </Link>
         </div>
        <div className='hover:text-[#000000] cursor-pointer'>
+         <Link to="services" smooth={true} duration={500}>
             <p>Our Services </p>
+            </Link>
         </div>
         <div className='hover:text-[#000000] cursor-pointer'>
+           <Link to="competency" smooth={true} duration={500}>
             <p>Core competencies</p>
+            </Link>
         </div>
         <div className='hover:text-[#000000] cursor-pointer'>
+           <Link to="competency" smooth={true} duration={500}>
             <p>Contact Us</p>
+            </Link>
         </div>
         <div className='hover:text-[#000000] cursor-pointer'>
             <p onClick={handlePrivacy}>Privacy Policy</p>
