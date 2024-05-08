@@ -75,7 +75,7 @@ function Navbar() {
         {mobileNav && (
           <div className="fixed left-0 top-16 w-full h-full bg-[#003049] text-white ease-in-out duration-500">
             
-              <img className="w-[100px] mx-4 my-4 flex items-center" src={hubblyname} alt="/" />
+              <img className="w-[400px] px-20 mx-4 my-4 flex items-center" src={hubblyname} alt="/" />
            
 
             <ul className='flex-col w-full space-y-12 text-white font-bold p-4 items-center'>
