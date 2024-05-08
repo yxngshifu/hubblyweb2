@@ -67,7 +67,7 @@ function Contact() {
             </Link>
         </div>
         <div className='hover:text-[#000000] cursor-pointer'>
-           <Link to="competency" smooth={true} duration={500}>
+           <Link to="competence" smooth={true} duration={500}>
             <p>Core competencies</p>
             </Link>
         </div>
@@ -88,7 +88,9 @@ function Contact() {
      </div>
      <div className="max-w-[1240px]  mx-auto grid md:grid-cols-4 lg:gap-4 sm:mb-2 lg:mb-8 font-Raleway">
         <div className=' cursor-pointer  hover:scale-105 duration-300'>
+           <a href="https://www.facebook.com/profile.php?id=61558480744783" target="_blank" rel="noopener noreferrer">
         <img className="sm:w-10 lg:w-16 md:w-16  sm:my-2 my-4" src={fbicon} alt="Phone" />
+        </a>
         </div>
          <div className=' cursor-pointer hover:scale-105 duration-300'>
             <a href="https://www.instagram.com/hubbly.me?igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
