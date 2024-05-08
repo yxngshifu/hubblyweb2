@@ -35,7 +35,7 @@ function Navbar() {
         <div className={`font-MuseoModerno bg-transparent fixed top-0 left-0 right-10 z-10 ${nav ? 'hidden' : ''}`}>
       <div className="flex justify-between items-center mx-auto lg:py-14 lg:px-16 text-white">
         <Link to='home' smooth={true} duration={500}>
-         <img className="w-[100px] lg:mx-10 md:mx-6 my-4 flex items-center cursor-pointer" src={logo1} alt="/" />
+         <img className="w-[100px] lg:mx-10 sm:px-4 md:mx-6 my-4 flex items-center cursor-pointer" src={logo1} alt="/" />
          </Link>
         <ul className="space-x-4 text-white font-bold p-4 flex items-center ml-[-10px]">
          
