@@ -86,9 +86,9 @@ function Contact() {
      <div>
         <p className='lg:text-sm sm:text-xs lg:mb-14'>Copyright 2024 Engitech by OceanThemes. All Rights Reserved</p>
      </div>
-     <div className="max-w-[1240px]  mx-auto grid md:grid-cols-4 lg:gap-4 lg:mb-8 font-Raleway">
+     <div className="max-w-[1240px]  mx-auto grid md:grid-cols-4 lg:gap-4 sm:mb-2 lg:mb-8 font-Raleway">
         <div className=' cursor-pointer  hover:scale-105 duration-300'>
-        <img className="sm:w-10 lg:w-16 md:w-16 my-4" src={fbicon} alt="Phone" />
+        <img className="sm:w-10 lg:w-16 md:w-16  sm:my-2 my-4" src={fbicon} alt="Phone" />
         </div>
          <div className=' cursor-pointer hover:scale-105 duration-300'>
             <a href="https://www.instagram.com/hubbly.me?igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
